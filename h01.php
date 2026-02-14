@@ -15,7 +15,7 @@
     $laul = "It's My Life";
     $artist = "Dr. Alban";
 
-    echo $laul . " – " . $artist;
+    echo $laul . " – " . $artist . "<br>";
 
 //pilt
 

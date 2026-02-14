@@ -18,16 +18,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "<h3>Tulemused:</h3>";
     
     echo sprintf(
-        "Trapetsi, mille alused on %s ja %s ning kõrgus %s, pindala on %.1f ruutmillimeetrit.<br>", 
+        "Trapetsi, mille alused on %s millimeetrit ja %s ning kõrgus %s milimeetrit, pindala on %.1f ruutmillimeetrit.<br>", 
         $t_a, $t_b, $t_h, $trapetsi_pindala
     );
 
     echo sprintf(
-        "Rombi, mille külg on %s, ümbermõõt on %.1f millimeetrit.", 
+        "Rombi, mille külg on %s millimeetrit, ümbermõõt on %.1f millimeetrit.", 
         $r_a, $rombi_umbermoot
     );
     
-    echo "<br><br><a href='03.html'>Tagasi arvutama</a>";
+    echo "<br><br><a href='h03.html'>Tagasi arvutama</a>";
 } else {
     echo "Palun täida vorm!";
 }
